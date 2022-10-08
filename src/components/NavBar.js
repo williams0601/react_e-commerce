@@ -10,7 +10,8 @@ const NavBar = () => {
     <div className="navbar bg-base-100">
     <div className="flex-1">
       <NavLink className={navLinkClass} to={'/'}>Mi app</NavLink>
-      <NavLink className={navLinkClass} to={'/shop'}>Shop</NavLink>
+      
+      <NavLink className={navLinkClass} to={'/shop'}>shop</NavLink>
       {/* <a className="btn btn-ghost normal-case text-xl">daisyUI</a> */}
     </div>
     <div className="flex-none">
